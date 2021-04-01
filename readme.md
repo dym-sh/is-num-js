@@ -11,7 +11,7 @@
 - https://github.com/dym-sh/is-num
 - https://gitlab.com/dym-sh/is-num
 - https://dym.sh/is-num
-- hyper://___ /[?](https://beakerbrowser.com)
+- hyper://06fa8d2353d0af744769c148f87cc85feb3492e71a920d84bbf824033cb8c5ac /[?](https://beakerbrowser.com)
 
 
 ## license

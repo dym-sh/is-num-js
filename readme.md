@@ -5,6 +5,13 @@
 
 /ref https://twitter.com/cassidoo/status/1376408380760276996
 
+main fuinction:
+```js
+const is_num = ( _ ) =>
+  /^[\+\-]?(\d+\.?\d*|\.\d+)$/
+  .test( _ )
+```
+
 
 ## mirrors
 - https://codepen.io/dym-sh/pen/LYxxGqE/left/?editors=0012

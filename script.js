@@ -9,13 +9,14 @@ const is_num = ( _ ) =>
   .test( _ )
 
 const test_valid =
-  [ '7', '0011', '+3.14', '4.', '-.9', '-123.456', '-0.1',
+  [ /* base examples */ '7', '0011', '+3.14', '4.', '-.9', '-123.456', '-0.1'
+  , /* extra edge cases */  '0', '-0', '00.00'
   ]
 console.log( 'valid numbers:', test_valid )
 
 const test_invalid =
   [ /* base examples */  'abc', '1a', 'e8', '--6', '-+3', '95x54e53.', '123.41241.123'
-  , /* extra edge cases */ '-.', '.', ''
+  , /* extra edge cases */ '+-', '-.', '.', ''
   ]
 console.log( 'invalid numbers:', test_invalid )
 
